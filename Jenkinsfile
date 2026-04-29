@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         // Registry & image config
-        REGISTRY      = "172.19.0.1:5000"
+        REGISTRY      = "172.19.0.2:5000"
         IMAGE_NAME    = "springboot-demo"
         IMAGE_TAG     = "${BUILD_NUMBER}"
         FULL_IMAGE    = "${REGISTRY}/${IMAGE_NAME}:${IMAGE_TAG}"
