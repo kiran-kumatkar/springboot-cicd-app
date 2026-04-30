@@ -381,5 +381,5 @@ Separating application code from deployment config is a GitOps best practice. It
 ## 👤 Author
 
 **Kiran Kumatkar**
-DevOps Engineer
+| DevOps Engineer
 
